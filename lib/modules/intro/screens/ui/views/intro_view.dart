@@ -20,7 +20,6 @@ class IntroView extends StatefulWidget {
 class _IntroViewState extends State<IntroView> {
   final CarouselSliderController _sliderController = CarouselSliderController();
 
-  // Your Intro content
   final List<IntroDataModel> _introDataItems = [
     IntroDataModel(
       title: 'Your dream destination is closer than you think.',
